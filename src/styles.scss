@@ -1,1 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600;700;800;900&display=swap");
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100%;
+  margin: 0px;
+  overflow: hidden;
+}
+h1 {
+  margin: 0px;
+}
+.rounded-input {
+  border-radius: 10%;
+}
+.mat-dialog-container {
+  border-radius: 28px !important;
+}
+
+.btn {
+  width: 244px;
+  height: 60px;
+  border: none;
+  color: white;
+  font-family: "Poppins";
+  font-size: 16pt;
+  border-radius: 28px;
+  background-size: 200% auto;
+  background-image: #7f00ff; /* fallback for old browsers */
+  background-image: -webkit-linear-gradient(
+    to right,
+    #e100ff,
+    #7f00ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background-image: linear-gradient(to right, #e100ff, #7f00ff);
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  &:hover {
+    background-position: right center; /* change the direction of the change here */
+  }
+}

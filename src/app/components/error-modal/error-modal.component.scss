@@ -1,0 +1,11 @@
+.modal-text {
+  margin: 2%;
+  font-weight: 400;
+  font-size: 20pt;
+}
+@media (max-width: 480px) {
+  .modal-text {
+    margin: 5%;
+    font-size: 14pt;
+  }
+}
